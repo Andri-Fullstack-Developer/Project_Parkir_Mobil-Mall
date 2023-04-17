@@ -1,0 +1,159 @@
+:root {
+    --primary: #eb1616;
+    --secondary: #191c24;
+    --light: #6c7293;
+    --dark: #000000;
+}
+
+span {
+    color: white;
+    font-size: 1rem;
+}
+
+.bg-profil {
+    background: #191c24;
+}
+
+.file-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-label {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.file-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.tbl,
+.td-1 {
+    border: nome;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.form-profi {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--light);
+    border-radius: 5px;
+    color: white;
+}
+.form-group {
+    padding: 0.5rem;
+}
+
+.form-group input[type="text"] {
+    background: transparent;
+    border: 1px solid var(--light);
+    color: white;
+}
+
+.form-group input[type="file"] {
+    background: transparent;
+    border: 1px solid var(--light);
+    color: white;
+}
+
+.add {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.add:hover {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.file {
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 600px) {
+    h5,
+    .ket {
+        font-size: 0.9rem;
+    }
+}
+
+.ket {
+    font-size: 1.4 rem;
+}
+
+.icon-edit,
+.icon-delete {
+    color: #6c7293;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon-edit:hover {
+    color: #17a2b8;
+    transform: scale(1.5);
+}
+
+.icon-delete:hover {
+    color: #ff0000;
+    transform: scale(1.5);
+}
+
+.btn-sm {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-edit {
+    position: absolute;
+    transform: translateX(-50%);
+    right: 1rem;
+    bottom: 1.7rem;
+    white-space: nowrap;
+    background: #17a2b8;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn-sm:hover .hover-edit {
+    opacity: 1;
+}
+
+.hover-hps {
+    position: absolute;
+    transform: translateX(-50%);
+    right: 0.2rem;
+    bottom: 1.7rem;
+    white-space: nowrap;
+    background: #dc3545;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn-sm:hover .hover-hps {
+    opacity: 1;
+}
+
+button.btn-sm {
+    background: none;
+    border: none;
+}
+.line {
+    border-top: 1px solid red;
+}
